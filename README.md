@@ -1,28 +1,29 @@
 # Angular Study Base 🧠🚀
 
-A clean, scalable, and well-structured Angular base project designed for learning, experimentation, and future real-world application development.
+A clean, scalable, and well-structured Angular 19 base project designed for learning, experimentation, and building real-world apps using best practices.
 
 ## 📦 Project Overview
 
-This repository provides a starter Angular project with:
+This repository provides a starter Angular 19 project with:
 
 - Lazy-loaded feature modules
-- A modular folder structure
+- A modular and scalable folder structure
 - SCSS styling
 - ESLint integration
-- HTTP interceptor for handling API requests
+- HTTP interceptor for token handling
 - Shared reusable components
 - Built-in routing system
+- Angular 19 features like signals, standalone APIs (optional)
 
-It's intended to serve as a foundational codebase for learning best practices and growing with more advanced features over time.
+It serves as a foundation for learning, testing, and future Angular development.
 
 ## 🔧 Tech Stack
 
-- [Angular](https://angular.io/) 17+
+- [Angular 19](https://angular.io/)
 - TypeScript
 - SCSS
-- ESLint
 - RxJS
+- ESLint
 - Angular CLI
 
 ## 📁 Folder Structure
@@ -31,8 +32,8 @@ It's intended to serve as a foundational codebase for learning best practices an
 src/
 ├── app/
 │   ├── core/            # Singleton services, interceptors, guards
-│   ├── shared/          # Reusable UI components, pipes, directives
-│   ├── features/        # Lazy-loaded modules (e.g., dashboard, auth)
+│   ├── shared/          # Reusable UI components, directives, pipes
+│   ├── features/        # Lazy-loaded feature modules (e.g., dashboard, auth)
 │   ├── app-routing.module.ts
 │   ├── app.component.ts
 │   └── app.module.ts
