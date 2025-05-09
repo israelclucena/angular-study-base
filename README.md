@@ -40,9 +40,9 @@ src/
 │   ├── core/            # Singleton services, interceptors, guards
 │   ├── shared/          # Reusable UI components, directives, pipes
 │   ├── features/        # Lazy-loaded feature modules (e.g., dashboard, auth)
-│   ├── app-routing.module.ts
 │   ├── app.component.ts
-│   └── app.module.ts
+│   ├── app.config.ts
+│   └── app.routes.ts
 ├── assets/
 ├── environments/
 
