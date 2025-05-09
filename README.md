@@ -17,7 +17,7 @@ This repository provides a starter Angular 19 project with:
 
 It serves as a foundation for learning, testing, and future Angular development.
 
-## 🔧 Tech Stack
+## 🅰️ Angular Stack
 
 - [Angular 19](https://angular.io/)
 - TypeScript
@@ -25,6 +25,12 @@ It serves as a foundation for learning, testing, and future Angular development.
 - RxJS
 - ESLint
 - Angular CLI
+
+## 💽 Tech Stack
+
+- ng version -> Angular CLI: 19.2.11
+- node -v -> v22.14.0
+- npm -v -> 11.3.0 
 
 ## 📁 Folder Structure
 
